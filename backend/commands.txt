@@ -9,5 +9,13 @@ Notice that the all commands is executing the manage.py file, i will change into
 `python manage.py createsuperuser` to create a superuser to manage the application that create a module in http://127.0.0.1:8000/admin/ with admin authentication (?
  lautaro | Ninguno123!
 
+I create a model called Article in `/backend/pos/models.py`
+`python manage.py makemigrations` to Create model Article
+`python manage.py migrate` to migrate the module that I was create
 
+I add 'rest_framework' and 'pos' in INSTALLED_APPS in /backend/settings.py
+I add a serializers.py in /backend/pos/
+
+`sudo apt-get install libpq-dev python-dev` to install psycopg2
+`sudo pip install psycopg2` to install postgres python tools
 

@@ -1,2 +1,2 @@
 # PY_BMS
-Djando Api rest with Postgres
+Django APIREST with Postgres
